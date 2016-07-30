@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DiabloPeli - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Erkki\LOCALS~1\Temp\RSPA8.tmp" with contents
+[
+/nologo /Zp8 /MD /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/DiabloPeli.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\DiabloPeli\Main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Erkki\LOCALS~1\Temp\RSPA8.tmp" 
+Creating temporary file "C:\DOCUME~1\Erkki\LOCALS~1\Temp\RSPA9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DiabloPeli.pdb" /debug /machine:I386 /out:"Debug/DiabloPeli.exe" /pdbtype:sept 
+.\Debug\gameMath.obj
+.\Debug\Main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Erkki\LOCALS~1\Temp\RSPA9.tmp"
+<h3>Output Window</h3>
+Compiling...
+Main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+DiabloPeli.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
